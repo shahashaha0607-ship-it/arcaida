@@ -1,0 +1,79 @@
+/* Umumiy sozlamalar */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  /* Orqa fon rasm */
+  background-image: url("background.jpg");
+  background-size: cover;       /* butun ekran bo‘ylab cho‘zadi */
+  background-position: center;  /* markazga joylashtiradi */
+  background-repeat: no-repeat; /* qaytarilmasin */
+}
+
+
+.container {
+  text-align: center;
+}
+
+/* Header qismi */
+.header-box {
+  background-color: white;
+  padding: 40px 80px;
+  border: 2px solid #000;
+  display: inline-block;
+  box-shadow: 6px 6px 0px #222;
+  margin-bottom: 40px;
+}
+
+.header-box h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.header-box h1 {
+  margin: 10px 0 0;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.yellow {
+  color: #f1c40f;
+}
+
+.blue {
+  color: #2e5bdb;
+}
+
+/* Tugmalar qismi */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-gap: 30px;
+  justify-content: center;
+}
+
+button {
+  background-color: white;
+  border: 10px solid #000;
+  padding: 15px;
+  font-size: 40px;
+  font-weight: 72;
+  cursor: pointer;
+  box-shadow: 6px 6px 0px #222;
+  border-radius: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 8px 8px 0px #111;
+}
+
+
+
+
